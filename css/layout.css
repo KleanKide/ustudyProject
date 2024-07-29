@@ -1,0 +1,143 @@
+.above-top-menu-bar {
+  position: fixed;
+  background-color: black;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 2;
+}
+.main-menu-links {
+  color: white;
+  font-weight: 600;
+}
+
+.page-content-wrapper {
+  max-width: 1425px;
+  width: 100%;
+  padding: 0 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.top-contact-info {
+  color: white;
+  font-size: 14px;
+  margin-left: 30px;
+}
+.top-phone-number {
+  color: white;
+}
+.fa-phone-flip {
+  margin: 0 5px 0 10px;
+}
+.top-logo {
+  float: left;
+}
+
+.top-menu-bar {
+  position: fixed;
+  top: 45px;
+  left: 0;
+  width: 100%;
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  padding: 0 0 20px 0;
+  border-color: rgba(256, 256, 256, 0.3);
+  opacity: 1;
+  background-color: transparent;
+  transition: opacity 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.top-menu-bar .page-content-wrapper {
+  max-width: 1425px;
+  width: 100%;
+  padding: 20px 70px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-menu-bar ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-menu-bar ul li {
+  margin: 0 15px;
+  color: white;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.top-menu-logo img {
+  width: 150px;
+}
+
+.top-menu-bar.top-menu-bar-backgound {
+  opacity: 1;
+  background-color: white;
+}
+.main-menu-links {
+  color: white;
+  transition: color 0.5s ease-in-out;
+}
+
+.main-menu-links.main-menu-links-color {
+  color: black;
+}
+
+.top-menu-bar.top-menu-bar-backgound {
+  opacity: 1;
+  background-color: white;
+}
+
+.main-menu-links {
+  color: white;
+  font-weight: 600;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.main-menu-links::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.2s ease-in-out;
+}
+
+.main-menu-links:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.top-menu-bar.top-menu-bar-backgound .main-menu-links {
+  color: black;
+  transition: color 0.2s ease-in-out;
+}
+
+.top-menu-bar.top-menu-bar-backgound .main-menu-links::after {
+  content: none;
+}
+
+.top-menu-bar.top-menu-bar-backgound .main-menu-links:hover {
+  color: #66a4db;
+}

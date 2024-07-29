@@ -1,0 +1,236 @@
+.background {
+  min-height: 579px;
+  z-index: 1;
+  background-image: url("/assets/images/background.jpeg");
+  background-size: cover;
+  background-position: center center;
+  object-fit: cover;
+}
+.information-block {
+  padding-top: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* top: 530px; */
+}
+
+.block-of-ent,
+.block-of-ezp,
+.block-of-tofel {
+  text-align: center;
+  background: white;
+  border-radius: 20px;
+  width: 100%;
+  margin: 50px 10px;
+  flex: 1;
+  max-width: 380px;
+}
+.block-title {
+  color: #163967;
+  font-size: 45px;
+  line-height: 1.3em;
+  padding: 10px 0 0 0;
+  font-weight: 700;
+}
+.block-descrip {
+  font-size: 16px;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  margin: 0 15px;
+  text-align: center;
+  line-height: 1.5;
+  color: #7e8090;
+}
+
+.block-btn {
+  background-color: #31ade7;
+  border-radius: 40px 40px 40px 40px;
+  font-size: 16px;
+  padding: 15px 30px;
+  margin: 20px 0;
+  color: white;
+  border: 0;
+}
+.question-block {
+  background-image: url("secondback.png");
+  width: 100%;
+  margin: 300px 0 0 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.question-block-answer {
+  color: #31aae1;
+  font-family: "Cabin", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0px 0px 30px 0px;
+}
+.question-block-often-question {
+  color: #163967;
+  font-family: "Roboto", Sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.3em;
+}
+.question-block-questions {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px 200px;
+}
+
+.questions {
+  border: 1px solid #ccc; 
+  width: 100%;
+}
+.question-block-questions h2 {
+  margin: 0;
+  padding: 15px 20px;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+}
+.fa-plus {
+  font-weight: 900;
+}
+.toggle-element {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  background-color: #ffffff;
+  color: #1a1919;
+  font-size: 18px;
+  padding: 0 20px;
+  border-top: 1px solid #d5d8dc;
+}
+
+.toggle-element.show {
+  max-height: 1000px; /* Высота элемента при открытии */
+}
+.btn {
+  border: none;
+  background-color: white;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.news {
+  color: #31aae1;
+  font-family: "Cabin", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.news-block {
+  margin: 0px 0px 20px 0px;
+}
+.last-news {
+  color: #163967;
+  font-family: "Roboto", Sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.3em;
+}
+.blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-title {
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+}
+.blog-main {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.blog-img {
+  width: 400px;
+  height: 250px;
+}
+.blog-meta-inf {
+  line-height: 1.3em;
+  font-size: 12px;
+  margin-bottom: 13px;
+  color: #adadad;
+}
+.blog-more-inf {
+  font-size: 12px;
+  font-weight: 700;
+  color: black;
+}
+.more-inf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-more-inf {
+  display: inline-block;
+  line-height: 1;
+  background-color: #69727d;
+  font-size: 15px;
+  padding: 12px 24px;
+  border-radius: 3px;
+  color: #fff;
+  fill: #fff;
+  text-align: center;
+  transition: all 0.3s;
+  border: none;
+  margin: 20px 50px 0;
+  cursor: pointer;
+}
+
+.partner-img {
+  margin: 80px 30px;
+  opacity: 0.9;
+}
+
+.mon {
+  width: 60px;
+  height: 61px;
+}
+.testcenter {
+  width: 100px;
+  height: 43px;
+}
+.teacher {
+  width: 131px;
+  height: 50px;
+}
+.ets {
+  width: 100px;
+  height: 100px;
+}
+.prometric {
+  width: 130px;
+  height: 56px;
+}
+.cambridge {
+  width: 100px;
+  height: 100px;
+}
+.british {
+  width: 142px;
+  height: 40px;
+}
+
+.partners-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

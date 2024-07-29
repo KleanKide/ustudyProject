@@ -1,0 +1,24 @@
+.scroll-up {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  background: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  opacity: 1;
+  border: none; 
+  padding: 20px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  visibility: hidden !important;
+  font-size: 1em;
+  line-height: 24px;
+  text-align: center; 
+  transition: opacity 0.5s ease-in-out;
+  font-weight: 200;
+  transition: opacity 0.5s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.scroll-up.scroll-show {
+  visibility: visible !important;
+  transition: opacity 0.5s ease-in-out, visibility 0.2s ease-in-out;
+}

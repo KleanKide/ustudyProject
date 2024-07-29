@@ -1,0 +1,19 @@
+@import url('base.css');
+@import url('layout.css');
+@import url('components.css');
+@import url('blocks.css');
+@import url('footer.css');
+@import url('scroll-up.css');
+
+
+.content .page-content-wrapper {
+  max-width: 1425px;
+  width: 100%;
+  padding: 0 90px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+
