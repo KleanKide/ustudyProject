@@ -90,6 +90,7 @@
   border: 1px solid #ccc; 
   width: 100%;
 }
+
 .question-block-questions h2 {
   margin: 0;
   padding: 15px 20px;
@@ -99,13 +100,18 @@
   outline: none;
   font-size: 20px;
 }
+.question-block-questions h2:hover{
+  color: #31aae1;
+}
 .fa-plus {
   font-weight: 900;
 }
 .toggle-element {
-  max-height: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
   overflow: hidden;
-  transition: max-height 0.5s ease-out;
+  transition: height 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
   background-color: #ffffff;
   color: #1a1919;
   font-size: 18px;
@@ -113,9 +119,12 @@
   border-top: 1px solid #d5d8dc;
 }
 
-.toggle-element.show {
-  max-height: 1000px; /* Высота элемента при открытии */
+.toggle-element.expanded {
+  height: auto;
+  opacity: 1;
+  visibility: visible;
 }
+
 .btn {
   border: none;
   background-color: white;
